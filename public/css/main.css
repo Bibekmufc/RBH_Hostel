@@ -1,0 +1,68 @@
+/* General Body */
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.h-font {
+    font-family: "Merienda", cursive;
+}
+
+.h-line {
+    width: 150px;
+    margin: 0 auto;
+    height: 1.7px;
+}
+
+.pop:hover {
+    border-color: teal !important;
+    transform: scale(1.03);
+    transition: all 0.3s;
+}
+
+.box:hover {
+    border-top-color: teal !important;
+}
+
+.custom-bg {
+    background-color: aquamarine;
+}
+
+.custom-bg:hover {
+    background-color: rgb(100, 198, 165);
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+/* Navbar */
+#logo {
+    width: 100px;
+    height: 100px;
+}
+
+.nav-link {
+    margin-right: 10px;
+}
+
+/* Welcome Banner */
+.welcome-banner {
+    z-index: 3;
+    margin-top: -50px;
+    position: relative;
+}
+
+@media screen and (max-width: 575px) {
+    .welcome-banner {
+        margin-top: -5px;
+        padding: 0 40px;
+    }
+}
